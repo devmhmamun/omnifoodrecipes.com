@@ -41,15 +41,19 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#" class="nav__link">How It Works</a>
+            <a href="#how" class="nav__link">How It Works</a>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">Meals</a></li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Testimonials</a>
+            <a href="#meals" class="nav__link">Meals</a>
           </li>
-          <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
           <li class="nav__item">
-            <a href="#" class="nav__link btn">Try for free</a>
+            <a href="#testimonials" class="nav__link">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a href="#pricing" class="nav__link">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a href="#cta" class="nav__link btn">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -77,10 +81,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="hero__btn hero__btn--1 mr-rt-sm"
+            <a href="#cta" class="hero__btn hero__btn--1 mr-rt-sm"
               >Start eating well</a
             >
-            <a href="#" class="hero__btn hero__btn--2">Learn more &darr;</a>
+            <a href="#how" class="hero__btn hero__btn--2">Learn more &darr;</a>
             <div class="hero__customerbox">
               <div class="hero__customers">
                 <img
@@ -163,7 +167,7 @@
         </div>
       </section>
       <!-- SECTION: HOW IT WORKS -->
-      <section class="how-it-works">
+      <section class="how-it-works" id="how">
         <div class="container">
           <div class="heading">
             <span class="heading__subtitle">How it works</span>
@@ -237,7 +241,7 @@
         </div>
       </section>
 
-      <section class="about-meals">
+      <section class="about-meals" id="meals">
         <div class="container txt-aln-ctr">
           <div class="heading">
             <span class="heading__subtitle">Sample Meals</span>
@@ -374,7 +378,7 @@
         </div>
       </section>
 
-      <section class="gallery-testimonials grid grid--cols-2">
+      <section class="gallery-testimonials grid grid--cols-2" id="testimonials">
         <div class="testimonial-container">
           <div class="heading">
             <span class="heading__subtitle">Testimonials</span>
@@ -535,7 +539,7 @@
           </figure>
         </div>
       </section>
-      <section class="pricing-features">
+      <section class="pricing-features" id="pricing">
         <div class="container">
           <div class="heading">
             <span class="heading__subtitle">Pricing</span>
@@ -655,7 +659,7 @@
         </div>
       </section>
 
-      <section class="call-to-action">
+      <section class="call-to-action" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta__text">
@@ -749,7 +753,8 @@
             </li>
           </ul>
           <p class="copyright">
-            copyright &copy; 2022 by Omnifood Inc. All right reserved.
+            copyright &copy; <span class="current-year">2037</span> by Omnifood
+            Inc. All right reserved.
           </p>
         </div>
         <div class="contact">
@@ -822,5 +827,7 @@
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
+
+    <script defer src="js/script.js"></script>
   </body>
 </html>
